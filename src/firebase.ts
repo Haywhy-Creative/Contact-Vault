@@ -5,6 +5,7 @@ import {
   GoogleAuthProvider,
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
+  sendPasswordResetEmail,
   signOut,
   onAuthStateChanged
 } from 'firebase/auth';
@@ -37,6 +38,7 @@ export const googleProvider = new GoogleAuthProvider();
 export {
   // Auth
   createUserWithEmailAndPassword,
+  sendPasswordResetEmail,
   signInWithEmailAndPassword,
   signOut,
   onAuthStateChanged,
